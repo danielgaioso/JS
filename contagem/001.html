@@ -12,17 +12,12 @@
         <h1>numerate</h1>
     </header>
     <section>
-        <label for="number" id="begin">begin:</label>
-        <input type="number" id="begin">
-
-        <label for="number" id="end">end:</label>
-        <input type="number" id="end">
-
-        <label for="number" id="gap">gap</label>
-        <input type="number" id="gap">
-        
-        <label for="button" id="count"></label>
-        <input type="button" value="count">
+        <div id="dados">
+            <p>begin: <input type="number" id="begin" name="begin:"></p>
+            <p>end: <input type="number" id="end" name="end"></p>
+            <p>gap: <input type="number" id="gap" name="gap"></p>
+            <p><input type="button" value="count" onclick="count()"></p>
+        </div>
 
         <div id="result">
             Waiting...

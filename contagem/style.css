@@ -20,10 +20,6 @@ header{
 }
 
 section{
-    align-items: center;
-    justify-content: center;
-    display: flex;
-    
     background: rgb(255, 255, 255);
     border-radius: 10px;
     padding: 15px;

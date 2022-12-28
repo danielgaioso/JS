@@ -31,3 +31,7 @@ section{
 footer{
     color: rgb(255, 255, 255);
 }
+
+select{
+    width: 150px;
+}
